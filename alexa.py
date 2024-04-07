@@ -47,9 +47,7 @@ def run_alexa():
         print(info)
         talk(info)
     elif 'show me something interesting' in command:
-        talk("your mom")
-    elif 'funny' in command:
-        talk("your mom")
+        talk("no")
     elif 'small' in command:
         talk("that's what she said")
 
@@ -60,7 +58,7 @@ def run_alexa():
     elif 'joke' in command:
         talk(pyjokes.get_joke())
     elif 'i feel so bad' in command:
-        talk("if you feel bad I am gonna fuck your ass then I am gonna bite your ass")
+        talk("sorry")
     elif 'can i take a coffe' in command:
          talk("your mom maybe can give one")
     else:
